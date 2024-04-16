@@ -1,0 +1,219 @@
+body {
+    font-family: sans-serif;
+    background-color: rgba(212, 149, 55, 1);
+}
+
+
+header {
+    background-image: linear-gradient( rgb(11, 11, 11), rgba(212, 149, 55, 1));
+    justify-content: space-between;
+    padding:10px;
+    margin-bottom: 1px;
+    display: flex;
+    width: 1170px;
+    align-items: center; 
+    }
+
+    h1 {
+    font-family: Regular 400;
+    text-align: left;
+    color: white;
+    font-size: 100px;
+    margin-top:75px ;
+    text-shadow:  4px 10px   rgb(198, 100, 133);
+    position: absolute;
+    top: 45px;
+    left:300px;
+    padding: 10px;
+    border-radius: 20px;
+    }
+   
+nav {
+    font-size: 24px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 60px 25px 65px;
+    justify-content: space-between;
+    display: flex;
+    width:1050px;
+    cursor: pointer;
+    }
+
+nav a:hover{
+    background-image: linear-gradient( white, lightblue);
+    box-shadow: 0px 10px 5px 0px  rgb(198, 100, 133), 0px 20px 5px 0px white;
+    transition:0.5s linear;
+    border-radius:15px;
+}
+ 
+
+h2 {
+    font-size:34px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0 5px 5px rgb(221, 10, 28);
+
+}
+
+a:link{
+    background-color:white; color:black; 
+    padding: 15px 25px 15px 25px; 
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 7px solid black;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    }
+
+p {
+    font-size: 24px;
+    color: rgb(129, 11, 51);
+    text-align: center;
+     width: 1170px;
+}
+
+.logo{
+    border-radius:53px;
+    opacity:70%;
+    margin: 35px;
+    box-shadow: 0 5px 15px 0 rgb(209, 19, 146);
+   
+}
+
+p1 {
+    font-size: 14px;
+    color: rgb(129, 11, 51);
+    width: 1170px;
+   }
+   p1:hover {
+    font-size: 22px;
+    color: black(129, 11, 51);
+        text-align: center;
+   }
+
+   p2 {
+    font-size: 24px;
+    color: rgb(198, 100, 133);
+        text-align: center;
+        width: 1170px;
+  }
+
+summary {
+    font-size: 40px;
+    color: rgb(246, 227, 58);
+    font-family:Brush Script Std, cursive;
+      
+    }
+
+details{
+     background-color: rgb(129, 11, 51);
+     width: 500px;
+     border:5px double yellow ;
+          text-shadow:  1px 1px white;
+
+     border-radius: 15px ;
+    }
+
+ .info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color: rgba(212, 149, 55, 1);
+    color: white;
+     cursor: pointer;
+    padding:30px 23px 35px 23px; 
+    width: 420px;
+    margin:20px 25px 20px 35px ;
+    
+}
+
+article:hover {
+    color:white;
+    box-shadow: 0 5px 5px 5px rgb(221, 10, 28);
+    background-color: #8d6b83;
+    font-size: 30px;
+    transition: 1s ease-in;
+    }
+
+.article-but2 {
+    font-weight: bold;color: black;
+    text-decoration: none;
+    background-color: rgba(253, 74, 74, 1);
+    border-radius: 15px;
+    font-size: 24px;
+    text-align: center;
+    padding: 7px 20px 7px 20px;
+    margin: 20px 10px 20px 30px;
+    }
+
+.article-but3 {
+    font-weight: bold;color: black;
+    text-decoration: none;
+    background-color: rgba(255, 235, 53, 1);
+    border-radius: 15px;
+    font-size: 24px;
+    text-align: center;
+    padding: 7px 20px 7px 30px;
+    margin: 20px 10px 20px 50px;
+}
+
+  td {
+    color: white;
+    padding: 20px 70px 20px 70px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+     text-shadow:  3px 4px rgb(240, 91, 5);
+}
+
+table{
+    margin: auto;
+    box-shadow: 0px 5px 5px 5px rgb(221, 10, 28);
+
+}
+
+
+footer {
+    padding:0px ;
+    width: 1170px;
+    height: 275px;
+    background-image: linear-gradient(rgba(212, 149, 55, 1), black);
+    text-shadow:  1px 2px rgb(182, 128, 164);
+}
+
+
+   
+footer a {
+    margin-right: 0px;
+    padding:55px 20px 40px 15px;
+    background-image: linear-gradient(rgba(212, 149, 55, 1), black);
+    border-radius: 25px;
+   
+}
+.gallery img {
+    opacity: 0.5;
+    width: 150px;
+    height: 200px;
+}
+
+.gallery img:hover {
+     opacity: 1;
+    border: 8px double rgb(129, 11, 51);;
+    width: 270px;
+    height: 320px;
+    padding: 5px;
+    transition:0.5s ease-out ;
+}
